@@ -263,6 +263,19 @@ header {
   transition: background-color 0.3s;
 }
 
+#musicBtn{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgba(187, 156, 192,0.8);
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  cursor:pointer;
+  transition: background-color 0.3s;
+}
+
 #startBtn {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 40px;
@@ -291,3 +304,8 @@ header {
 #startBtn:hover {
   background-color: rgba(103, 114, 157,0.8);
 }
+
+#musicBtn:hover {
+  background-color: rgba(103, 114, 157,0.8);
+}
+
